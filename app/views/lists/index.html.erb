@@ -1,1 +1,5 @@
 <h1>butts</h1>
+<%#= @lists %>
+<% @lists.each do |list|%>
+ <%= link_to list.name, list_path(list) %>
+<% end %>

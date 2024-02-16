@@ -9,6 +9,9 @@ gem "autoprefixer-rails"
 #bootstrap
 gem "bootstrap", "~> 5.2"
 
+#dotenv
+gem "dotenv-rails"
+
 #fontawesome
 gem "font-awesome-sass", "~> 6.1"
 
