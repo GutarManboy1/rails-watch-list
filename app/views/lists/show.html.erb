@@ -1,1 +1,6 @@
 <h1><%= @list.name %></h1>
+<% if @list.photo.attached? %>
+  <%= cl_image_tag @list.photo.key %>
+<% else %>
+  <%= image_tag 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPQDYau3Hs4-xw1i8jVSUY4BlF4FLmg8lQqg&usqp=CAU' %>
+<% end %>
