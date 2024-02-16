@@ -9,6 +9,9 @@ gem "autoprefixer-rails"
 #bootstrap
 gem "bootstrap", "~> 5.2"
 
+#cloudinary
+gem "cloudinary"
+
 #dotenv
 gem "dotenv-rails"
 
